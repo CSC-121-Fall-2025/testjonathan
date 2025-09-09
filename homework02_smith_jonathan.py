@@ -276,3 +276,5 @@ print("Thoughts about GitHub:", reflection_3)
 print("\n=== HOMEWORK ASSIGNMENT COMPLETED ===")
 print("Student:", first_name, last_name)
 print("All sections completed successfully!")
+
+#https://github.com/CSC-121-Fall-2025/testjonathan.git
