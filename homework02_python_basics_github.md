@@ -35,9 +35,9 @@ By completing this assignment, you will:
 #!/usr/bin/env python3
 """
 Homework Assignment 2: Python Basics & GitHub Introduction
-Student Name: [Your Full Name]
-Student ID: [Your Student ID]
-Date: [Submission Date]
+Student Name: [Jonathan Smith]
+Student ID: [1062370]
+Date: [9/9/2025]
 Course: CSC 121 - Introduction to Python and Data Science
 
 INSTRUCTIONS: 
@@ -62,7 +62,7 @@ print("=== SECTION 1: BASIC UNDERSTANDING ===")
 # d) A way to print text
 # 
 # Your answer:
-question_1_answer = "your_answer"  # Replace with your answer (a, b, c, or d)
+question_1_answer = "b"  # Replace with your answer (a, b, c, or d)
 print("Question 1 answer:", question_1_answer)
 
 # Question 2 (5 points)
@@ -73,7 +73,7 @@ print("Question 1 answer:", question_1_answer)
 # d) True
 #
 # Your answer:
-question_2_answer = "your_answer"  # Replace with your answer (a, b, c, or d)
+question_2_answer = "c"  # Replace with your answer (a, b, c, or d)
 print("Question 2 answer:", question_2_answer)
 
 # Question 3 (5 points)
@@ -88,7 +88,7 @@ print("Question 2 answer:", question_2_answer)
 # d) This code will cause an error
 #
 # Your answer:
-question_3_answer = "your_answer"  # Replace with your answer (a, b, c, or d)
+question_3_answer = "a"  # Replace with your answer (a, b, c, or d)
 print("Question 3 answer:", question_3_answer)
 
 # Question 4 (5 points)
@@ -99,7 +99,7 @@ print("Question 3 answer:", question_3_answer)
 # d) student name
 #
 # Your answer:
-question_4_answer = "your_answer"  # Replace with your answer (a, b, c, or d)
+question_4_answer = "c"  # Replace with your answer (a, b, c, or d)
 print("Question 4 answer:", question_4_answer)
 
 # Question 5 (5 points)
@@ -110,7 +110,7 @@ print("Question 4 answer:", question_4_answer)
 # d) Boolean
 #
 # Your answer:
-question_5_answer = "your_answer"  # Replace with your answer (a, b, c, or d)
+question_5_answer = "b"  # Replace with your answer (a, b, c, or d)
 print("Question 5 answer:", question_5_answer)
 
 # Question 6 (5 points)
@@ -118,7 +118,7 @@ print("Question 5 answer:", question_5_answer)
 # when using them in print statements.
 #
 # Your answer:
-question_6_answer = "your_answer"  # Replace with True or False
+question_6_answer = "False"  # Replace with True or False
 print("Question 6 answer:", question_6_answer)
 
 # Question 7 (5 points)
@@ -129,7 +129,7 @@ print("Question 6 answer:", question_6_answer)
 # d) A data type
 #
 # Your answer:
-question_7_answer = "your_answer"  # Replace with your answer (a, b, c, or d)
+question_7_answer = "b"  # Replace with your answer (a, b, c, or d)
 print("Question 7 answer:", question_7_answer)
 
 # Question 8 (5 points)
@@ -140,7 +140,7 @@ print("Question 7 answer:", question_7_answer)
 # d) To download files
 #
 # Your answer:
-question_8_answer = "your_answer"  # Replace with your answer (a, b, c, or d)
+question_8_answer = "b"  # Replace with your answer (a, b, c, or d)
 print("Question 8 answer:", question_8_answer)
 
 # Question 9 (5 points)
@@ -148,7 +148,7 @@ print("Question 8 answer:", question_8_answer)
 # to create a GitHub repository.
 #
 # Your answer:
-question_9_answer = "your_answer"  # Replace with True or False
+question_9_answer = "False"  # Replace with True or False
 print("Question 9 answer:", question_9_answer)
 
 # Question 10 (5 points)
@@ -159,7 +159,7 @@ print("Question 9 answer:", question_9_answer)
 # d) Your full name and address
 #
 # Your answer:
-question_10_answer = "your_answer"  # Replace with your answer (a, b, c, or d)
+question_10_answer = "c"  # Replace with your answer (a, b, c, or d)
 print("Question 10 answer:", question_10_answer)
 
 # ============================================================================
@@ -195,7 +195,23 @@ print("\nTask 1: Personal Information Program")
 #
 # Write your code below:
 
-# YOUR CODE HERE - replace this comment with your solution
+first_name = "Jonathan"
+last_name = "Smith"
+age = 25
+favorite_color = "blue"
+favorite_number = 12
+hometown = "Durham"
+
+print("First Name: ", first_name)
+print("Last Name: ", last_name)
+print("Age: ", age)
+print("Favorite Color: ", favorite_color)
+print("Favorite Number: ", favorite_number)
+print("Hometown: ", hometown)
+
+creative_statement = f"There once was a man named {first_name} who lived in a city called {hometown} and had {favorite_number} children."
+
+print(creative_statement)
 
 # Task 2: Fix the Errors (10 points)
 print("\nTask 2: Fixed Code")
@@ -213,15 +229,15 @@ print("\nTask 2: Fixed Code")
 #
 # BROKEN CODE (fix the errors below):
 
-studentname = John
-student age = "twenty"
-favorite subject = Data Science
+student_name = "John"
+student_age = 20
+favorite_subject = "Data Science"
 
-print("Student name:", studentname)
-print("Age:", student age, "years old")
-print("Favorite subject:", favorite subject)
+print("Student name:", student_name)
+print("Age:", student_age, "years old")
+print("Favorite subject:", favorite_subject)
 
-graduation_year = 2025 + student age
+graduation_year = 2025 + student_age
 print("Graduation year:", graduation_year)
 
 # ----------------------------------------------------------------------------
@@ -257,7 +273,11 @@ print("\nTask 3: GitHub Repository Information")
 #
 # Write your code below:
 
-# YOUR CODE HERE - replace this comment with your solution
+github_username = "jpsmith370-png"
+repository_name = "testjonathan"
+repository_url = "https://github.com/CSC-121-Fall-2025/testjonathan.git"
+file_created = "github_exercise.txt"
+commit_message = "Add github exercise file"
 
 # Verification that you completed the GitHub tasks:
 github_tasks_completed = {
@@ -275,9 +295,9 @@ print("GitHub Tasks Completed:", github_tasks_completed)
 print("\n=== REFLECTION SECTION ===")
 
 # Answer these reflection questions by replacing the placeholder text:
-reflection_1 = "Replace this text with what you found most challenging about this assignment"
-reflection_2 = "Replace this text with what you learned about variables and data types"
-reflection_3 = "Replace this text with your thoughts about using GitHub"
+reflection_1 = "The most challenging thing to me was the f strings, since they were a new concept to me."
+reflection_2 = "I learned that f strings can be set as variables in Python."
+reflection_3 = "It's confusing, but I think I'll get the hang of it soon."
 
 print("Most challenging part:", reflection_1)
 print("What I learned about Python:", reflection_2)
